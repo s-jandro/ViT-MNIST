@@ -362,7 +362,7 @@ public:
         }
     }
 
-    // ================== NUEVO: GUARDAR Y CARGAR PESOS ==================
+    // ================== GUARDAR Y CARGAR PESOS ==================
     void save_model(const string &filename)
     {
         ofstream file(filename, ios::binary);
@@ -455,7 +455,7 @@ public:
         cout << "Modelo cargado exitosamente." << endl;
     }
 
-    // ================== NUEVO: PREDECIR IMAGEN PROPIA ==================
+    // ================== PREDECIR IMAGEN PROPIA ==================
     void predict_custom_image(const string &path)
     {
         int w, h, channels;
@@ -563,7 +563,7 @@ private:
         return out;
     }
 
-    // BACKWARD NORMALIZACION MANUAL (100% SEGURO)
+    // BACKWARD NORMALIZACION MANUAL
     MatrixXf layer_norm_backward(const MatrixXf &dout, const MatrixXf &x, const VectorXf &g, VectorXf &dg, VectorXf &db)
     {
         int N = x.rows();
@@ -650,7 +650,6 @@ private:
     }
 };
 
-// ====================== MAIN MEJORADO ======================
 int main()
 {
     // Instanciamos la red
