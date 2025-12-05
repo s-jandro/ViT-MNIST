@@ -1,0 +1,46 @@
+===========================================
+   VISION TRANSFORMER (ViT) - C++ & EIGEN
+===========================================
+1. Entrenar modelo (Train)
+2. Probar imagen propia (Predict)
+Selecciona una opcion: 1
+
+¿Quieres continuar el entrenamiento anterior? (1: Si, 0: No - Desde cero): 1
+Modelo cargado exitosamente.
+Cargando MNIST...
+Iniciando entrenamiento...
+Epoch 1 [2000/60000] Acc parcial: 89.15%
+Epoch 1 [4000/60000] Acc parcial: 88.275%
+Epoch 1 [6000/60000] Acc parcial: 88.5167%
+Epoch 1 [8000/60000] Acc parcial: 88.1375%
+Epoch 1 [10000/60000] Acc parcial: 88.31%
+Epoch 1 [12000/60000] Acc parcial: 88.4%
+Epoch 1 [14000/60000] Acc parcial: 88.5571%
+Epoch 1 [16000/60000] Acc parcial: 88.6188%
+Epoch 1 [18000/60000] Acc parcial: 88.7%
+Epoch 1 [20000/60000] Acc parcial: 88.78%
+Epoch 1 [22000/60000] Acc parcial: 88.8045%
+Epoch 1 [24000/60000] Acc parcial: 88.6792%
+Epoch 1 [26000/60000] Acc parcial: 88.6731%
+Epoch 1 [28000/60000] Acc parcial: 88.7179%
+Epoch 1 [30000/60000] Acc parcial: 88.7933%
+Epoch 1 [32000/60000] Acc parcial: 88.825%
+Epoch 1 [34000/60000] Acc parcial: 88.8676%
+Epoch 1 [36000/60000] Acc parcial: 88.8306%
+Epoch 1 [38000/60000] Acc parcial: 88.8289%
+Epoch 1 [40000/60000] Acc parcial: 88.8825%
+Epoch 1 [42000/60000] Acc parcial: 88.9095%
+Epoch 1 [44000/60000] Acc parcial: 88.8864%
+Epoch 1 [46000/60000] Acc parcial: 88.9261%
+Epoch 1 [48000/60000] Acc parcial: 88.9292%
+Epoch 1 [50000/60000] Acc parcial: 88.944%
+Epoch 1 [52000/60000] Acc parcial: 88.9462%
+Epoch 1 [54000/60000] Acc parcial: 88.9981%
+Epoch 1 [56000/60000] Acc parcial: 88.9786%
+Epoch 1 [58000/60000] Acc parcial: 88.9603%
+Epoch 1 [60000/60000] Acc parcial: 88.9583%
+--- Fin Epoch 1 Loss: 0.345096 Acc: 88.9583% ---
+Modelo guardado en vit_mnist_weights.bin
+
+Validando en TEST set...
+TEST ACCURACY: 85.3% me sirve

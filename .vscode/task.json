@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Compilar ViT-MNIST",
+            "command": "C:\\TDM-GCC-64\\bin\\g++.exe",
+            "args": [
+                "-O3",
+                "-march=native",
+                "-I", "C:/eigen-3.4.0",                   
+                "-std=c++17",
+                "main.cpp",
+                "-o", "ViT_MNIST.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "ViT MNIST con TDM-GCC"
+        }
+    ]
+}
