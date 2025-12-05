@@ -1,4 +1,4 @@
-# Vision Transformer (ViT) "From Scratch" en C++ para MNIST
+# Vision Transformer (ViT) en C++ para MNIST
 
 
 Este repositorio contiene una implementación completa y manual de un **Vision Transformer (ViT)** escrita en **C++ puro**, diseñada para resolver la tarea de clasificación de dígitos manuscritos (dataset MNIST).
