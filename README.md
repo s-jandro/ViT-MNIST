@@ -19,8 +19,6 @@ Este repositorio contiene una implementación completa y manual de un **Vision T
 
 ## 🛠️ Arquitectura del Proyecto
 
-Basado en la estructura de archivos actual:
-
 ```
 VIT-MNIST/
 ├── Eigen/                     # Librería de álgebra lineal (dependencia)
