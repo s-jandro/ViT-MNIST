@@ -43,4 +43,4 @@ Epoch 1 [60000/60000] Acc parcial: 88.9583%
 Modelo guardado en vit_mnist_weights.bin
 
 Validando en TEST set...
-TEST ACCURACY: 85.3% me sirve
+TEST ACCURACY: 85.3%
